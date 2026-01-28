@@ -3,353 +3,612 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./Style/index.css">
+    <title>Iconic Structure & Design Ltd. | Building Excellence</title>
     <link rel="stylesheet" href="./Style/common.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header Navigation -->
+    
     <header id="header">
-    <div class="container">
-        <nav class="navbar">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Left : Logo -->
+                <div class="nav-left">
+                    <a href="index.html" class="logo">
+                        <img src="../Image/Common/logo.jpg" class="fas fa-building" style="height: 50px; width: 50px;" alt="">
+                        Iconic<span>Structure</span>
+                    </a>
+                </div>
 
-            <!-- Left : Logo -->
-            <div class="nav-left">
-                <a href="index.html" class="logo">
-                    
-                    <img src="./Image/Common/logo.jpg" class="fas fa-building" style="height: 50px; width: 50px;" alt="">
-                  
-                    
-                    Iconic<span>Structure</span>
-                </a>
-            </div>
+                <!-- Center : Menu -->
+                <div class="nav-center">
+                    <ul class="nav-links">
+                        <li><a href="../index.html" class="nav-item active">Home</a></li>
+                        <li><a href="projects.html" class="nav-item">Projects</a></li>
+                        <li><a href="about.html" class="nav-item">About Us</a></li>
+                        <li><a href="media.html" class="nav-item">Media</a></li>
+                        <li><a href="contact.html" class="nav-item">Contact</a></li>
+                    </ul>
+                </div>
 
-            <!-- Center : Menu -->
-            <div class="nav-center">
-                <ul class="nav-links">
-                    <li><a href="index.html" class="nav-item">Home</a></li>
-                    <li><a href="projects.html" class="nav-item">Project</a></li>
-                    <li><a href="about.html" class="nav-item">About Us</a></li>
-                    <li><a href="media.html" class="nav-item">Media</a></li>
-                    <li><a href="contact.html" class="nav-item">Contact</a></li>
-                </ul>
-            </div>
+                <!-- Right : Call Now -->
+                <div class="nav-right">
+                    <a href="tel:+8801711776535" class="call-btn">
+                        <i class="fas fa-phone-alt"></i> Call Now
+                    </a>
+                </div>
 
-            <!-- Right : Call Now -->
-            <div class="nav-right">
-                <a href="tel:+8801234567890" class="call-btn">
-                    <i class="fas fa-phone-alt"></i> Call Now
-                </a>
-            </div>
-
-            <!-- Mobile Menu Button -->
-            <button class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </button>
-
-        </nav>
-    </div>
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
     </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-tagline">
+                    <span class="tagline-badge">
+                        <i class="fas fa-star"></i> Trusted Since 2008
+                    </span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Building Dreams</span><br>
+                    <span class="highlight">With Precision & Passion</span>
+                </h1>
+                <p class="hero-description">
+                    We transform visions into iconic structures. With 15+ years of excellence, 
+                    we deliver premium residential, commercial, and industrial construction 
+                    projects that stand the test of time.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="250">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="15">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="180">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+                <div class="hero-btns">
+                    <a href="./Design/project.html" class="btn-primary">
+                        <i class="fas fa-building"></i> Explore Projects
+                    </a>
+                    <a href="contact.html" class="btn-secondary">
+                        <i class="fas fa-calendar-check"></i> Get Free Consultation
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+                     alt="Modern Architecture" loading="lazy">
+                <div class="hero-image-overlay">
+                    <div class="floating-badge">
+                        <i class="fas fa-award"></i>
+                        <span>ISO 9001:2015 Certified</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
 
-     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Building Trust, Building Future</h1>
-            <p>আমরা গড়ে তুলি স্বপ্নের বাসস্থান ও ব্যবসায়িক স্থাপনা। ১৫ বছরের অভিজ্ঞতা নিয়ে আমরা অঙ্গীকারবদ্ধ উন্নতমানের নির্মাণ সেবা প্রদানের।</p>
-            <div class="hero-btns">
-                <a href="./projects.html" class="btn">আমাদের প্রকল্পসমূহ</a>
-                <a href="./contact.html" class="btn btn-secondary">যোগাযোগ করুন</a>
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Legacy of Excellence</h2>
+                <div class="header-line"></div>
+                <p>Building trust through quality and innovation since 2008</p>
+            </div>
+            
+            <div class="about-wrapper">
+                <div class="about-content">
+                    <h3>ICONIC STRUCTURE & DESIGN LTD.</h3>
+                    <p class="about-lead">
+                        Founded with a simple yet powerful vision: to deliver quality homes and commercial 
+                        spaces that enrich lives and communities.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Innovative Design Solutions</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quality Material Assurance</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Timely Project Delivery</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Client-Centric Approach</span>
+                        </div>
+                    </div>
+                    <p class="about-description">
+                        Our team of experienced engineers, architects, and professionals combine 
+                        traditional craftsmanship with modern technology to create structures 
+                        that are not only beautiful but also sustainable and durable.
+                    </p>
+                    <a href="./Design/about.html" class="btn-outline">
+                        <span>Discover Our Story</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+                             alt="Construction Site" loading="lazy">
+                        <div class="years-badge">
+                            <span>15+</span>
+                            <small>Years of Excellence</small>
+                        </div>
+                    </div>
+                    <div class="stats-overlay">
+                        <div class="stat-card">
+                            <i class="fas fa-hard-hat"></i>
+                            <div>
+                                <h4>150+</h4>
+                                <p>Professionals</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-city"></i>
+                            <div>
+                                <h4>50+</h4>
+                                <p>Ongoing Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-
- 
-   <section class="about-home">
-    <div class="container about-wrapper">
-
-        <!-- Image -->
-        <div class="about-image">
-            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="ISDL Modern Building Project">
-        </div>
-
-        <!-- Content -->
-        <div class="about-content">
-            <h2>About ICONIC STRUCTURE & DESIGN LTD.</h2>
-
-            <p class="about-text">
-                ICONIC STRUCTURE & DESIGN LTD. (ISDL) was founded with a simple yet
-                genuine pledge — to deliver quality homes for the residents of Dhaka city.
-            </p>
-
-            <div class="about-more">
-                <p>
-                    Our management recognized the immense potential of Dhaka and dedicated
-                    every effort to meeting its rapidly growing housing needs. With a skilled
-                    team of engineers, architects, and professionals, we focus on innovation,
-                    quality, and trust.
-                </p>
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="header-line"></div>
+                <p>Showcasing our excellence in construction and design</p>
             </div>
-
-            <div class="about-buttons">
-                <button class="btn-outline" onclick="window.location.href='../Design/about-more.html'">
-    Show More
-</button>
-
-            </div>
-        </div>
-
-    </div>
-</section>
-
-
-<section id="projects" class="projects">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Completed Projects</h2>
-            <p>A selection of our successfully delivered developments</p>
-        </div>
-
-        <div class="projects-grid">
-
-            <!-- Project 1 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994" alt="River View Residence">
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="River View Residence" loading="lazy">
+                        <div class="project-overlay">
+                            <span class="project-status completed">Completed</span>
+                            <div class="project-actions">
+                                <button class="quick-view">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                                <button class="favorite-btn">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">
+                            <i class="fas fa-home"></i> Residential
+                        </div>
+                        <h3>River View Residence</h3>
+                        <p class="project-location">
+                            <i class="fas fa-map-marker-alt"></i> Gulshan, Dhaka
+                        </p>
+                        <p class="project-description">
+                            10-storey luxury apartment complex with panoramic river views and premium amenities.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-swimming-pool"></i> Pool</span>
+                            <span><i class="fas fa-car"></i> Parking</span>
+                            <span><i class="fas fa-shield-alt"></i> Security</span>
+                        </div>
+                        <a href="project-details.html" class="project-link">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="project-info">
-                    <h3>River View Residence</h3>
-                    <span class="location">
-                        <i class="fas fa-map-marker-alt"></i> Gulshan, Dhaka
-                    </span>
-                    <p>10-storey modern residential apartment completed in 2022.</p>
-                    <a href="project-details.html" class="btn">View Details</a>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Metropolis Tower" loading="lazy">
+                        <div class="project-overlay">
+                            <span class="project-status running">Running</span>
+                            <div class="project-actions">
+                                <button class="quick-view">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                                <button class="favorite-btn">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">
+                            <i class="fas fa-building"></i> Commercial
+                        </div>
+                        <h3>Metropolis Tower</h3>
+                        <p class="project-location">
+                            <i class="fas fa-map-marker-alt"></i> Banani, Dhaka
+                        </p>
+                        <p class="project-description">
+                            15-storey commercial hub featuring smart offices and retail spaces with modern amenities.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-elevator"></i> High-speed Lift</span>
+                            <span><i class="fas fa-wifi"></i> Smart Systems</span>
+                            <span><i class="fas fa-solar-panel"></i> Solar Power</span>
+                        </div>
+                        <a href="project-details.html" class="project-link">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Lakeside Villa" loading="lazy">
+                        <div class="project-overlay">
+                            <span class="project-status completed">Completed</span>
+                            <div class="project-actions">
+                                <button class="quick-view">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                                <button class="favorite-btn">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">
+                            <i class="fas fa-paint-roller"></i> Renovation
+                        </div>
+                        <h3>Lakeside Villa Renovation</h3>
+                        <p class="project-location">
+                            <i class="fas fa-map-marker-alt"></i> Uttara, Dhaka
+                        </p>
+                        <p class="project-description">
+                            Complete transformation of a 20-year-old villa into a modern lakeside retreat.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-swimming-pool"></i> Infinity Pool</span>
+                            <span><i class="fas fa-wine-glass-alt"></i> Rooftop Bar</span>
+                            <span><i class="fas fa-theater-masks"></i> Home Theater</span>
+                        </div>
+                        <a href="project-details.html" class="project-link">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-
-            <!-- Project 2 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00" alt="Metropolis Tower">
-                </div>
-                <div class="project-info">
-                    <h3>Metropolis Tower</h3>
-                    <span class="location">
-                        <i class="fas fa-map-marker-alt"></i> Banani, Dhaka
-                    </span>
-                    <p>15-storey commercial building with offices & retail spaces.</p>
-                    <a href="project-details.html" class="btn">View Details</a>
-                </div>
-            </div>
-
-            <!-- Project 3 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" alt="Lakeside Villa Renovation">
-                </div>
-                <div class="project-info">
-                    <h3>Lakeside Villa Renovation</h3>
-                    <span class="location">
-                        <i class="fas fa-map-marker-alt"></i> Uttara, Dhaka
-                    </span>
-                    <p>Complete renovation and modernization of a private villa.</p>
-                    <a href="project-details.html" class="btn">View Details</a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-<section id="why-choose-us" class="why-us">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Why Choose Us</h2>
-            <p>What sets ICONIC STRUCTURE & DESIGN LTD. apart</p>
-        </div>
-
-        <div class="features-grid">
-
-            <!-- Feature 1 -->
-            <div class="feature-item">
-                <div class="feature-icon">
-                    <i class="fas fa-users"></i>
-                </div>
-                <h3>Experienced Team</h3>
-                <p>
-                    A highly skilled team of engineers, architects, and professionals
-                    with over 15 years of industry experience.
-                </p>
-            </div>
-
-            <!-- Feature 2 -->
-            <div class="feature-item">
-                <div class="feature-icon">
-                    <i class="fas fa-award"></i>
-                </div>
-                <h3>Superior Quality</h3>
-                <p>
-                    We use premium materials and follow international quality standards
-                    to ensure long-lasting value.
-                </p>
-            </div>
-
-            <!-- Feature 3 -->
-            <div class="feature-item">
-                <div class="feature-icon">
-                    <i class="fas fa-clock"></i>
-                </div>
-                <h3>On-Time Delivery</h3>
-                <p>
-                    Every project is completed within the agreed timeline
-                    without compromising quality.
-                </p>
-            </div>
-
-            <!-- Feature 4 -->
-            <div class="feature-item">
-                <div class="feature-icon">
-                    <i class="fas fa-heart"></i>
-                </div>
-                <h3>Client Satisfaction</h3>
-                <p>
-                    Trusted by our clients, with a proven record of 98% customer satisfaction.
-                </p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-<!-- Statistics -->
-<section class="stats">
-    <div class="container">
-        <div class="stats-grid">
-
-            <div class="stat-item">
-                <div class="stat-number" data-count="250">0</div>
-                <div class="stat-text">Completed Projects</div>
-            </div>
-
-            <div class="stat-item">
-                <div class="stat-number" data-count="15">0</div>
-                <div class="stat-text">Years of Experience</div>
-            </div>
-
-            <div class="stat-item">
-                <div class="stat-number" data-count="180">0</div>
-                <div class="stat-text">Satisfied Clients</div>
-            </div>
-
-            <div class="stat-item">
-                <div class="stat-number" data-count="50">0</div>
-                <div class="stat-text">Ongoing Projects</div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<script>
-// Simple counter animation
-const counters = document.querySelectorAll('.stat-number');
-counters.forEach(counter => {
-    const updateCount = () => {
-        const target = +counter.getAttribute('data-count');
-        const count = +counter.innerText;
-        const increment = Math.ceil(target / 200); // speed
-
-        if(count < target) {
-            counter.innerText = count + increment;
-            setTimeout(updateCount, 20);
-        } else {
-            counter.innerText = target;
-        }
-    };
-    updateCount();
-});
-</script>
-
-<!-- Call to Action -->
-<section id="contact" class="cta">
-    <div class="container">
-        <div class="cta-content">
-            <h2>Planning a Construction Project?</h2>
-            <p>
-                Whether it's your dream home or a commercial building, our expert team at ICONIC STRUCTURE & DESIGN LTD.
-                will provide tailored solutions that meet your needs with quality, efficiency, and reliability.
-            </p>
-
-            <div class="cta-buttons">
-                <a href="tel:+8801712345678" class="btn-primary">Call Now: +880 1712-345678</a>
-                <a href="contact.html" class="btn-outline">Get a Free Consultation</a>
+            
+            <div class="projects-cta">
+                <a href="./Design/project.html" class="btn-view-all">
+                    View All Projects <i class="fas fa-arrow-right"></i>
+                </a>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
-  <footer id="footer">
-    <div class="container">
-
-        <!-- Main Footer Content -->
-        <div class="footer-wrapper">
-
-            <!-- Brand / Logo -->
-            <div class="footer-col footer-brand">
-                <img 
-                    src="./Image/Common/logo.jpg" 
-                    alt="ICONIC STRUCTURE & DESIGN LTD." 
-                    class="footer-logo-img"
-                >
-                <p class="footer-tagline">
-                    We Care for Satisfaction.
-                </p>
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Us</h2>
+                <div class="header-line"></div>
+                <p>Excellence in every aspect of construction</p>
             </div>
-
-            <!-- Contact Info -->
-            <div class="footer-col footer-contact">
-                <h4>Our Office</h4>
-                <p>
-                    House #I-22, Block-D, Pallabi,<br>
-                    Mirpur, Dhaka-1216
-                </p>
-
-                <h4>Contact</h4>
-                <p>
-                    <a href="tel:+8801712345678">+880 1711-776535</a><br>
-                    <a href="mailto:iconicbd.net@gmail.com">iconicbd.net@gmail.com</a>
-                </p>
-            </div>
-
-            <!-- Social Media -->
-            <div class="footer-col footer-social">
-                <h4>Connect With Us</h4>
-                <div class="social-links">
-                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Expert Team</h3>
+                    <p>150+ experienced professionals including engineers, architects, and project managers.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Quality Assurance</h3>
+                    <p>ISO 9001:2015 certified with strict quality control at every construction stage.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>On-Time Delivery</h3>
+                    <p>98% of projects completed within deadline without compromising quality standards.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safety First</h3>
+                    <p>Zero-accident record for 5 consecutive years with comprehensive safety protocols.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Sustainable Building</h3>
+                    <p>Green construction practices and eco-friendly materials for a better environment.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Client Satisfaction</h3>
+                    <p>98% client satisfaction rate with dedicated post-construction support.</p>
                 </div>
             </div>
-
         </div>
+    </section>
 
-        <!-- Footer Bottom -->
-        <div class="footer-bottom">
-            <p>© 2026 ICONIC STRUCTURE & DESIGN LTD.</p>
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="counter" data-count="250">0</h3>
+                        <p>Completed Projects</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="counter" data-count="15">0</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="counter" data-count="180">0</h3>
+                        <p>Satisfied Clients</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="counter" data-count="12">0</h3>
+                        <p>Awards Won</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-    </div>
-</footer>
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2>Ready to Build Your Dream Project?</h2>
+                    <p>Contact us today for a free consultation and let's turn your vision into reality.</p>
+                </div>
+                <div class="cta-actions">
+                    <a href="tel:+8801711776535" class="btn-cta-primary">
+                        <i class="fas fa-phone-alt"></i> 
+                        <div>
+                            <span>Call Now</span>
+                            <small>+880 1711-776535</small>
+                        </div>
+                    </a>
+                    <a href="contact.html" class="btn-cta-secondary">
+                        <i class="fas fa-calendar-check"></i> Get Free Consultation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="./Image/Common/logo.jpg" alt="Iconic Structure" class="footer-logo">
+                    <div class="brand-text">
+                        <h3>ICONIC STRUCTURE & DESIGN LTD.</h3>
+                        <p class="tagline">We Care for Satisfaction</p>
+                    </div>
+                </div>
+                
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="./Design/project.html">Projects</a></li>
+                            <li><a href="./Design/about.html">About Us</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Contact Info</h4>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i> House #I-22, Block-D, Pallabi, Mirpur, Dhaka-1216</p>
+                            <p><i class="fas fa-phone"></i> <a href="tel:+8801711776535">+880 1711-776535</a></p>
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:iconicbd.net@gmail.com">iconicbd.net@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Connect With Us</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="newsletter">
+                            <p>Subscribe for updates</p>
+                            <div class="subscribe-form">
+                                <input type="email" placeholder="Your email">
+                                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 ICONIC STRUCTURE & DESIGN LTD. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Counter Animation
+            const counters = document.querySelectorAll('.counter');
+            const speed = 200;
+            
+            const animateCounter = (counter) => {
+                const target = +counter.getAttribute('data-count');
+                const count = +counter.innerText;
+                const increment = Math.ceil(target / speed);
+                
+                if(count < target) {
+                    counter.innerText = count + increment;
+                    setTimeout(() => animateCounter(counter), 10);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+            
+            // Intersection Observer for counters
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting) {
+                        animateCounter(entry.target);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            counters.forEach(counter => {
+                counter.innerText = '0';
+                observer.observe(counter);
+            });
+            
+            // Mobile Menu Toggle
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+            
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                mobileMenuBtn.innerHTML = navLinks.classList.contains('active') 
+                    ? '<i class="fas fa-times"></i>' 
+                    : '<i class="fas fa-bars"></i>';
+            });
+            
+            // Sticky Header
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', () => {
+                if(window.scrollY > 100) {
+                    header.classList.add('sticky');
+                } else {
+                    header.classList.remove('sticky');
+                }
+            });
+            
+            // Smooth Scroll
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if(targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if(targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Project Card Hover Effects
+            const projectCards = document.querySelectorAll('.project-card');
+            projectCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-15px)';
+                });
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+            
+            // Initialize hero counters
+            const heroCounters = document.querySelectorAll('.stat-number');
+            heroCounters.forEach(counter => {
+                const target = +counter.getAttribute('data-count');
+                const duration = 2000;
+                const increment = target / (duration / 16);
+                let current = 0;
+                
+                const timer = setInterval(() => {
+                    current += increment;
+                    if(current >= target) {
+                        counter.textContent = target + (counter.getAttribute('data-count') > 100 ? '+' : '');
+                        clearInterval(timer);
+                    } else {
+                        counter.textContent = Math.floor(current) + (counter.getAttribute('data-count') > 100 ? '+' : '');
+                    }
+                }, 16);
+            });
+        });
+    </script>
 </body>
 </html>
